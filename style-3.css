@@ -1,9 +1,9 @@
 /* ==== PAGE WIDTH ==== */
 body {
     padding-left: 20%;
-    padding-right: 20%
-
-
+    padding-right: 20%;
+    background-color: purple;
+ }
 
 h1 {
     font-size: 84px;
@@ -11,16 +11,15 @@ h1 {
     text-align: center;
     font-weight: normal;
     letter-spacing: 4px;
-
+    color: white;
 }
-
-
 
 h2 {
     font-size: 28px;
     margin-bottom: 4px;
     margin-top: 54px;
     text-transform: uppercase;
+    color: white;
 }
 
 p {
@@ -28,4 +27,5 @@ p {
     margin-top: 0;
     font-family: sans-serif;
     line-height: 1.6;
+    color: white;
 }
