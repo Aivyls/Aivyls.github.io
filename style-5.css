@@ -48,3 +48,9 @@ p {
     margin-top: 0;
     margin-bottom: 22px;
 }
+/* margin */
+img{
+    margin-bottom: 42px;
+    /* Drop shadow effect at right and bottom of image */
+    box-shadow: 8px 10px 8px #888;
+}
