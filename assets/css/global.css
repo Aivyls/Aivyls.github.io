@@ -44,7 +44,7 @@ footer a.privacy-legal { font-family: sans-serif }
 nav.navbar.navbar-dark.bg-dark { background-color: darkblue !important }
 
 /* Menu: light colour */
-nav.navbar.navbar-light.bg-light { background-color: lightblue !important }
+nav.navbar.navbar-light.bg-light { background-color: #edcfa9 !important }
 
 /* Hamburger icon */
 #mainNav.navbar-dark.bg-dark i.fas.fa-bars { font-size: xx-large }
@@ -134,18 +134,18 @@ nav.navbar.navbar-light.bg-light { background-color: lightblue !important }
 /* Default font settings */
 .hero-7 h1 { 
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.1;
     font-size: calc(60px + (112 - 60) * ((100vw - 320px) / (1600 - 320)));
-    text-shadow: 2px 2px #222;
+   
 }
 
 .hero-7 h2 { 
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.4;
     font-size: calc(24px + (54 - 24) * ((100vw - 320px) / (1600 - 320)));
-    text-shadow: 2px 2px #222;    
+      
 }
 
 /* ======= 5: HERO BLOCKS WITH BACKGROUND VIDEO ======= */
@@ -181,7 +181,7 @@ nav.navbar.navbar-light.bg-light { background-color: lightblue !important }
 @media (max-width:767px) { .hero-10 .background-video-content { height: 380px } }
 
 .hero-10 .background-video-content h1 { 
-    color: #bee5d3;
+    color: #fff;
     font-weight: bold;
     line-height: 1.4;
     font-size: calc(48px + (100 - 48) * ((100vw - 320px) / (1600 - 320)));
@@ -190,7 +190,7 @@ nav.navbar.navbar-light.bg-light { background-color: lightblue !important }
 }
 
 .hero-10 .background-video-content h2 { 
-    color: #bee5d3;
+    color: #fff;
     font-weight: bold;
     line-height: 1.4;
     font-size: calc(20px + (48 - 20) * ((100vw - 320px) / (1600 - 320)));
@@ -248,7 +248,7 @@ nav.navbar.navbar-light.bg-light { background-color: lightblue !important }
 footer { 
     text-align: center; 
     color:#fff;
-    background-color:#03506f;
+    background-color:#e89f71;
 }
 
 /* Desktop footer - inside padding  */
