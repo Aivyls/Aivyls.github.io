@@ -8,7 +8,9 @@
     <!--
     <meta name="description" content="I use HTML, CSS and JavaScript with graphic design and animation to bring your ideas to life.">
     -->
-    
+
+    <link rel="preload" href="assets/videos/image-postern.jpg" as="image">  
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
@@ -41,7 +43,7 @@
 <body>
 
     <!-- Begin navbar -->
-    <nav class="navbar navbar-expand-lg navbar-ligt bg-light sticky-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="mainNav">
         <div class="container">
 
             <!-- Website logo -->
@@ -77,7 +79,7 @@
     <div class="container-fluid hero-block hero-10">
     
         <!-- Background video --->
-        <video loop muted autoplay poster="assets/videos/hero-video-poster.jpg" class="background-video">
+        <video loop playinline muted autoplay poster="assets/videos/image-postern.jpg" class="background-video" disablepictureinpicture preload="auto">
                 <source src="assets/videos/heroo-video.mp4" type="video/mp4">
         </video>
     
@@ -89,7 +91,7 @@
             <h1>Cynthia Bernard</h1>
             <h2>Web UI/UX Designer</h2>
       
-            <!-- Buttons start here -->
+            <!--Button Starts here-->
             <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <a class="btn btn-primary btn-lg" href="portfolio/" role="button"><i class="fas fa-pencil-ruler"></i> &nbsp;&nbsp;Portfolio</a>
@@ -98,7 +100,7 @@
                     <a class="btn btn-primary btn-lg" href="contact/" role="button"><i class="far fa-envelope"></i> &nbsp;&nbsp;Contact</a>
                 </div>	
             </div>
-            <!-- Buttons end here -->            
+           <!--Button ends here-->          
         </div>
 	</div>
 
